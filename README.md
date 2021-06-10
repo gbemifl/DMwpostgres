@@ -4,7 +4,7 @@ Sparkify has been collecting songs and user activity on their new music app for 
 
 The Sparkifydb database was created and consists of five tables based on a star schema. The fact table, songplay table and the dimension tables- songs, artists, time, users
 
-STAR SCHEMA
+</br>STAR SCHEMA</br>
 The basis for the star schema was to keep our model very simple and denormalized, the json data provided was very simple and can answer a lot of question about our customers, the songs played and location played.
 Sparkify also wanted the data to provide query responses very quickly to make it very easy to make changes to data.
 We want to be able to do simple queries and simplify our business reporting logic especially with our period reporting of user logins based on the timestamps provided. We have one fact table and the dimensional tables that feed into the fact table. With the schema this way we are able to answer questions like:
@@ -22,8 +22,7 @@ In songplay table, songplay_id is a serial and primary key
 In the user table, user_id is the primary key, we want to be able to identify each user as one entity
 in the song table, song_id is the primary key 
 In the artist table, artist_id was the primary key
-
-songplay- the database is optimized for queries on the songplay table which collates the user data for analysis.
+The database is optimized for queries on the songplay table which collates the user data for analysis.
 
 The Dimension tables which each of the attributes as depicted in the diagram:
 <img width="715" alt="Screen Shot 2021-06-10 at 4 40 19 PM" src="https://user-images.githubusercontent.com/63693605/121606484-7c12f400-ca0b-11eb-9b6b-224f6d3caa4d.png">
