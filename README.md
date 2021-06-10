@@ -26,8 +26,7 @@ In the artist table, artist_id was the primary key
 songplay- the database is optimized for queries on the songplay table which collates the user data for analysis.
 
 The Dimension tables which each of the attributes as depicted in the diagram:
-
-
+<img width="715" alt="Screen Shot 2021-06-10 at 4 40 19 PM" src="https://user-images.githubusercontent.com/63693605/121606484-7c12f400-ca0b-11eb-9b6b-224f6d3caa4d.png">
 
 There are 3 main code files to execute the database:
 
