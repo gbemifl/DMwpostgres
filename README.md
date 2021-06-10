@@ -5,7 +5,7 @@ Sparkify has been collecting songs and user activity on their new music app for 
 The Sparkifydb database was created and consists of five tables based on a star schema. The fact table, songplay table and the dimension tables- songs, artists, time, users
 
 </br>STAR SCHEMA</br>
-The basis for the star schema was to keep our model very simple and denormalized, the json data provided was very simple and can answer a lot of question about our customers, the songs played and location played.
+The basis for the star schema was to keep our model very simple and denormalized, the json data provided was very simple and can answer a lot of question about our customers, the songs, artist and what location the songs were played in.
 Sparkify also wanted the data to provide query responses very quickly to make it very easy to make changes to data.
 We want to be able to do simple queries and simplify our business reporting logic especially with our period reporting of user logins based on the timestamps provided. We have one fact table and the dimensional tables that feed into the fact table. With the schema this way we are able to answer questions like:
 
