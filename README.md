@@ -9,9 +9,9 @@ The basis for the star schema was to keep our model very simple and denormalized
 Sparkify also wanted the data to provide query responses very quickly to make it very easy to make changes to data.
 We want to be able to do simple queries and simplify our business reporting logic especially with our period reporting of user logins based on the timestamps provided. We have one fact table and the dimensional tables that feed into the fact table. With the schema this way we are able to answer questions like:
 
-What location are users playing music in?
-what songs are played the most?
-How is the free and paid subscriptions serving customers?
+What location are users playing music in?</br>
+what songs are played the most?</br>
+How is the free and paid subscriptions serving customers?</br>
 
 
 The data files given were the Song file and Log file in json format:
